@@ -1,0 +1,11 @@
+name = "cureslot-edge-engine"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cureslot_prod"
+database_id = "d1-cureslot-mock-id"
+
+[vars]
+ENVIRONMENT = "production"

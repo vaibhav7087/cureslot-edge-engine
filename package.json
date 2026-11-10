@@ -1,0 +1,19 @@
+{
+  "name": "cureslot-edge-engine",
+  "version": "1.0.0",
+  "description": "Serverless edge WhatsApp telemedicine & appointment booking engine powered by Cloudflare Workers and D1 SQLite",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": ["cloudflare-workers", "d1", "whatsapp-business-api", "telemedicine", "edge-computing"],
+  "author": "Vaibhav Kadam <vaibhavkadam7010@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250204.0",
+    "typescript": "^5.7.3",
+    "wrangler": "^3.107.3"
+  }
+}
